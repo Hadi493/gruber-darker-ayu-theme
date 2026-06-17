@@ -5,6 +5,9 @@ A blend of the [Gruber Darker](http://jblevins.org/projects/emacs-color-themes/c
 Keeps Gruber Darker's deep `#181818` background while replacing its muted
 syntax with the warm, high-contrast palette of Ayu Dark.
 
+## Screenshot ##
+![Screenshot](screenshot.png)
+
 # Installation #
 
 You can do everything by your hands.
