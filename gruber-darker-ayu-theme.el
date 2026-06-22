@@ -1,10 +1,11 @@
-;;; gruber-darker-ayu-theme.el --- Gruber Darker + Ayu Dark color theme for Emacs.
+;;; gruber-darker-ayu-theme.el --- Gruber Darker + Ayu Dark color theme  -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2026 Hadi Alam
 
 ;; Author: Hadi Alam <hadialam493@gmail.com>
 ;; URL: https://github.com/Hadi493/gruber-darker-ayu-theme
 ;; Version: 1.0
+;; Package-Requires: ((emacs "27.1"))
 
 ;; This program is free software: you can redistribute it and/or
 ;; modify it under the terms of the GNU General Public License as
@@ -24,9 +25,19 @@
 ;; A blend of the Gruber Darker and Ayu Dark color themes.  Keeps
 ;; Gruber Darker's deep #181818 background while replacing its muted
 ;; syntax with the warm, high-contrast palette of Ayu Dark.
+;;
+;; Provides faces for Avy, Company, Compilation, Consult, Corfu,
+;; Diff, Dired, Doom Modeline, Ediff, Eglot, Flycheck, Flymake,
+;; Font Lock, Git Gutter, Magit, Marginalia, Markdown, Mode Line,
+;; Multiple Cursors, Orderless, Org, Org Roam, PDF Tools, Rainbow
+;; Delimiters, Tab Bar, Transient, Vertico, Which Key, Whitespace,
+;; Yasnippet, and more.
 
+;;; Code:
+
+;;;###autoload
 (deftheme gruber-darker-ayu
-  "Gruber Darker × Ayu Dark color theme for Emacs 24+")
+  "Gruber Darker × Ayu Dark color theme for Emacs 27+.")
 
 ;; Please, install rainbow-mode.
 (let ((gruber-darker-ayu-fg         "#ffffff")
@@ -51,7 +62,7 @@
       (gruber-darker-ayu-dim        "#3d4658"))
   (custom-theme-set-variables
    'gruber-darker-ayu
-   '(frame-brackground-mode (quote dark))
+   '(frame-background-mode (quote dark))
    `(ansi-color-names-vector
      [,gruber-darker-ayu-bg-1
       ,gruber-darker-ayu-red
@@ -729,10 +740,8 @@
    `(writegood-passive-face ((t (:underline (:style wave :color ,gruber-darker-ayu-orange)))))
 
    ;; Yasnippet
-   `(yas-field-highlight-face ((t (:background ,gruber-darker-ayu-bg+2 :extend t))))
-   ))
+   `(yas-field-highlight-face ((t (:background ,gruber-darker-ayu-bg+2 :extend t)))))
 
-;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
