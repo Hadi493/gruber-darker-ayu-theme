@@ -3,6 +3,7 @@
 ;; Copyright (C) 2026 Hadi Alam
 
 ;; Author: Hadi Alam <hadialam493@gmail.com>
+;; Assisted-by: opencode:deepseek-v4-flash-free
 ;; URL: https://github.com/Hadi493/gruber-darker-ayu-theme
 ;; Version: 1.0
 ;; Package-Requires: ((emacs "27.1"))
