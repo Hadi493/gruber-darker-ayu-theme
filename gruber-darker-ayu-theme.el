@@ -741,7 +741,7 @@
    `(writegood-passive-face ((t (:underline (:style wave :color ,gruber-darker-ayu-orange)))))
 
    ;; Yasnippet
-   `(yas-field-highlight-face ((t (:background ,gruber-darker-ayu-bg+2 :extend t)))))
+   `(yas-field-highlight-face ((t (:background ,gruber-darker-ayu-bg+2 :extend t))))))
 
 (when load-file-name
   (add-to-list 'custom-theme-load-path
