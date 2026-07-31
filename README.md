@@ -4,6 +4,12 @@ A color theme for the [Zed editor](https://zed.dev), blending the deep
 `#181818` background of [Gruber Darker](http://jblevins.org/projects/emacs-color-themes/color-theme-gruber-darker.el.html)
 with the warm, high-contrast syntax palette of [Ayu Dark](https://github.com/ayu-theme/ayu-colors).
 
+## Screenshots
+
+![Screenshot 1](screenshots/ss-1.png)
+![Screenshot 2](screenshots/ss-2.png)
+![Screenshot 3](screenshots/ss-3.png)
+
 ## Installation
 
 Copy the theme file into your Zed themes directory:
