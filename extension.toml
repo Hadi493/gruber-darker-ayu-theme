@@ -1,0 +1,7 @@
+id = "gruber-darker-ayu-theme"
+name = "Gruber Darker Ayu"
+version = "0.1.0"
+schema_version = 1
+authors = ["Hadi Alam <hadialam493@gmail.com>"]
+description = "Gruber Darker's deep #181818 background with Ayu Dark's warm, high-contrast syntax palette"
+repository = "https://github.com/Hadi493/gruber-darker-ayu-theme"
