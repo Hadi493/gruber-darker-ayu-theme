@@ -1,43 +1,34 @@
-# Gruber Darker + Ayu Dark #
+# Gruber Darker + Ayu Dark
 
-A blend of the [Gruber Darker](http://jblevins.org/projects/emacs-color-themes/color-theme-gruber-darker.el.html) and
-[Ayu Dark](https://github.com/ayu-theme/ayu-colors) color themes.
-Keeps Gruber Darker's deep `#181818` background while replacing its muted
-syntax with the warm, high-contrast palette of Ayu Dark.
+A color theme for the [Zed editor](https://zed.dev), blending the deep
+`#181818` background of [Gruber Darker](http://jblevins.org/projects/emacs-color-themes/color-theme-gruber-darker.el.html)
+with the warm, high-contrast syntax palette of [Ayu Dark](https://github.com/ayu-theme/ayu-colors).
 
-## Screenshot ##
-![Screenshot](screenshot.png)
+## Installation
 
-# Installation #
+Copy the theme file into your Zed themes directory:
 
-You can do everything by your hands.
-
-## Manual old fashioned way ##
-
-Download the theme to your local directory. You can do it through `git
-clone` command:
-
-```
-git clone https://github.com/Hadi493/gruber-darker-ayu-theme.git
+```sh
+mkdir -p ~/.config/zed/themes
+cp gruber-darker-ayu.json ~/.config/zed/themes/
 ```
 
-Then add path to gruber-darker-ayu-theme to custom-theme-load-path list —
-add the following to your emacs config file somewhere (.emacs,
-init.el, whatever):
+Restart Zed, then select **Gruber Darker Ayu** in the theme picker
+(`cmd-k cmd-t` on macOS, `ctrl-k ctrl-t` on Linux/Windows).
 
+## Emacs version
+
+The original Emacs theme lives on the `master` branch as
+`gruber-darker-ayu-theme.el`.
+
+## Development
+
+To validate the theme file:
+
+```sh
+python3 -m json.tool gruber-darker-ayu.json > /dev/null
 ```
-(add-to-list 'custom-theme-load-path
-             "/path/to/gruber-darker-ayu-theme/")
-```
 
-Use `M-x load-theme RET gruber-darker-ayu RET` to change your current theme.
+## License
 
-# Contribution #
-
-Gruber Darker + Ayu Dark is an awesome theme. But it has a lack of support for
-many good modes. I add color faces only for modes I use. If you like
-this theme and use a mode that looks very bad with it, feel free to
-add appropriate color faces (see file gruber-darker-ayu-theme.el) and send
-me a pull request.
-
-Thanks.
+[GPL-3.0](LICENSE) © Hadi Alam.
