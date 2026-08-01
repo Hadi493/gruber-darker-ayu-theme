@@ -7,8 +7,6 @@ with the warm, high-contrast syntax palette of [Ayu Dark](https://github.com/ayu
 ## Screenshots
 
 ![Screenshot 1](screenshots/ss-1.png)
-![Screenshot 2](screenshots/ss-2.png)
-![Screenshot 3](screenshots/ss-3.png)
 
 ## Installation
 
