@@ -38,7 +38,7 @@
         "icon.disabled": "#3d4658ff",
         "icon.placeholder": "#6b7b8eff",
         "icon.accent": "#6dcfffff",
-        "status_bar.background": "#202020ff",
+        "status_bar.background": "#211f33ff",
         "title_bar.background": "#202020ff",
         "title_bar.inactive_background": "#181818ff",
         "toolbar.background": "#181818ff",
